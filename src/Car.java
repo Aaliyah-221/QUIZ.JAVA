@@ -1,4 +1,12 @@
-package PACKAGE_NAME;
+public class Car extends Vehicle{
 
-public class Car {
+    Car(String brand, double rentalPrice) {
+        super(brand, rentalPrice);
+    }
+
+    @Override
+    double calculateRentalCost(int days) {
+        return rentalPrice * days;
+
+    }
 }
