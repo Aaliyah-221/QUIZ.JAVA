@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 
 class Vehicle {
     String brand;
